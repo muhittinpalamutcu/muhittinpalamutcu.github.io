@@ -1,0 +1,184 @@
+body {
+  background-color: #1e2022;
+  text-align: center;
+  color: #f0f5f9;
+  font-family: Comfortaa;
+}
+
+h6 {
+  color: #66bfbf;
+}
+
+hr {
+  border-color: #66bfbf;
+  border-style: solid;
+}
+
+a {
+  color: #f0f5f9;
+}
+
+a:hover {
+  color: #66bfbf;
+}
+
+/* Title */
+#title {
+  padding: 5% 10% 10%;
+}
+
+@media(max-width:1129px) {
+  #title {
+    padding: 7% 10% 10%;
+  }
+}
+
+@media(max-width:800px) {
+  #title {
+    padding: 13% 10% 10%;
+  }
+}
+
+.brand-image {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 10px;
+}
+
+.carousel-plan {
+  font-family: 'Comfortaa', cursive;
+  padding: 13% 0;
+}
+
+/* Direct */
+#direct-about {
+  padding: 1%
+}
+
+/* About */
+#about {
+  padding: 0 10%;
+}
+
+.about-image {
+  width: 90%;
+}
+
+.about-description {
+  padding: 10% 0;
+  text-align: right;
+}
+
+.about-heading {
+  font-size: 700%;
+  color: #66bfbf;
+}
+
+@media(max-width:1200px) {
+  .about-description {
+    text-align: center;
+  }
+
+  .about-image {
+    margin-top: 25%;
+  }
+}
+
+/* My works */
+#skills {
+  margin-top: 10%;
+}
+
+.skills-h6 {
+  color: #66bfbf;
+}
+
+.skills-h3{
+  padding: 2% 0 3%  ;
+}
+
+.skills-row {
+  padding: 0 20%;
+  margin-top: 4%;
+}
+
+.skills-box {
+  padding: 0 5%;
+}
+
+.skills-icon {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.skills-icon:hover {
+  color: #66bfbf;
+}
+
+/* What I can do */
+#wicdo {
+  margin-top: 10%;
+}
+
+.wicdo-container {
+  padding: 0 10%;
+}
+
+.wicdo-header {
+  color: #66bfbf;
+}
+
+.wicdo-row1-images {
+  width: 60%;
+  float: left;
+}
+
+.wicdo-row2-images {
+  width: 60%;
+  float: right;
+}
+
+
+.wicdo-row1-description {
+  padding: 9% 0 0;
+  text-align: right;
+}
+
+.wicdo-row2-description {
+  padding: 11% 0 0;
+  text-align: left;
+}
+
+@media(max-width:991px) {
+  .wicdo-row1-description {
+    text-align: center;
+  }
+
+  .wicdo-row2-description {
+    text-align: center;
+  }
+
+  .wicdo-row1-images {
+    width: 60%;
+    float: none;
+  }
+
+  .wicdo-row2-images {
+    width: 60%;
+    float: none;
+  }
+}
+
+/* Contact me! */
+#contact {
+  margin-top: 7%;
+}
+
+/* Footer */
+#footer {
+  padding-top: 5%;
+}
+
+.footer-p {
+  font-size: 0.75em;
+}
