@@ -79,6 +79,10 @@ a:hover {
     text-align: center;
   }
 
+  .about-heading {
+    font-size: 400%;
+  }
+
   .about-image {
     margin-top: 25%;
   }
